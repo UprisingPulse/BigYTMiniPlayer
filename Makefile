@@ -1,7 +1,7 @@
 PREFIX=$(THEOS)/toolchain/Xcode.xctoolchain/usr/bin/
 
 export ARCHS = arm64 arm64e
-export TARGET := iphone:clang:14.4
+export TARGET := iphone:clang:14.4:13.0
 FINALPACKAGE = 1
 INSTALL_TARGET_PROCESSES = YouTube
 
